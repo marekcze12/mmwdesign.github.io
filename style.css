@@ -1,0 +1,43 @@
+/* Toto je CSS komentář */
+
+/* Obecné styly pro celou stránku */
+body {
+    font-family: Arial, sans-serif; /* Nastavení písma */
+    line-height: 1.6; /* Výška řádku pro lepší čitelnost */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Světle šedé pozadí */
+    color: #333; /* Tmavě šedá barva textu */
+}
+
+/* Stylování kontejneru pro lepší zarovnání na větších obrazovkách */
+header, main, footer {
+    width: 80%;
+    margin: 20px auto; /* 20px nahoře/dole, auto vlevo/vpravo (vycentruje) */
+    padding: 20px;
+    background-color: #fff; /* Bílé pozadí pro obsahové bloky */
+    border-radius: 8px; /* Zaoblené rohy */
+}
+
+/* Stylování hlavního nadpisu */
+h1 {
+    color: #0056b3; /* Modrá barva */
+    text-align: center; /* Zarovnání na střed */
+}
+
+/* Změna barvy odkazů (pokud nějaké přidáte) */
+a {
+    color: #007bff;
+    text-decoration: none; /* Odstranění podtržení */
+}
+
+a:hover {
+    text-decoration: underline; /* Podtržení při najetí myší */
+}
+
+/* Stylování patičky */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
